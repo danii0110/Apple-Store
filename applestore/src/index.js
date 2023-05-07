@@ -4,7 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';1
+import 'bootstrap/dist/css/bootstrap.min.css';
+import clayful from "clayful/client-js";
+
+clayful.config({
+  client:"",
+})
 
 ReactDOM.render (
   <React.StrictMode>
